@@ -1,0 +1,26 @@
+body,
+html {
+  background: lightyellow;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 3rem;
+  color: darkred;
+}
+
+main {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.card img {
+  width: 100%;
+}
